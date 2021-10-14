@@ -1,0 +1,119 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+
+
+body {
+    background-color:black;
+    /* background-image:url("https://static.wikia.nocookie.net/starwars/images/e/e9/AlderaanSystem-TCWAssassin.png");
+    background-size:cover; */
+    height: 100vh;
+    width:100vw;
+    display:grid;
+    grid-template-rows:25vh 25vh 25vh 25vh;
+    grid-template-areas:
+    "header header header header"
+    "image image image image"
+    ". button section .";
+    justify-items: center;
+}
+
+#heading{
+    grid-area:header;
+    color:white;
+    font-family:Italianno;
+    font-size: 150px;
+    align-self:center;
+}
+
+button{
+    grid-area:button;
+    width: 200px;
+    height: 50px;
+    color:white;
+    border:none;
+    background-color: rgba(255,255,255,0.2);
+    box-shadow: 2px 2px 2px grey;
+    align-self:center;
+}
+button:hover{
+    background-color:rgba(255,255,255,0.3);
+}
+
+section{
+    grid-area:section;
+    color:white;
+    align-self: start;
+}
+
+img{
+    grid-area:image;
+    height:200px;
+    align-self: center;
+}
+.letters{
+    color:white;
+    font-size:150px;
+    font-family:Italianno;
+    display:inline-block;
+    position:absolute;
+    transform-origin:bottom center;
+    padding-bottom:700px;
+    z-index:-1;
+}
+#letter-one{
+    transform:rotate(-35deg);
+}
+#letter-two{
+    transform:rotate(-29.5deg);
+}
+#letter-three{
+    transform:rotate(-27deg);
+}
+#letter-four{
+    transform:rotate(-25.2deg);
+}
+#letter-five{
+    transform:rotate(-22.5deg);
+}
+#letter-six{
+    transform:rotate(-20deg);
+}
+#letter-seven{
+    transform:rotate(-16.9deg);
+}
+#letter-eight{
+    transform:rotate(-14.1deg);
+}
+#letter-nine{
+    transform:rotate(-11.9deg);
+}
+#letter-ten{
+    transform:rotate(-0.85deg);
+}
+#letter-eleven{
+    transform:rotate(1deg);
+}
+ #letter-twelve{
+    transform:rotate(12.1deg);
+}
+#letter-thirteen{
+    transform:rotate(17.3deg);
+}
+#letter-fourteen{
+    transform:rotate(20deg);
+}
+#letter-fifteen{
+    transform:rotate(22.8deg);
+}
+#letter-sixteen{
+    transform:rotate(25.6deg);
+}
+#letter-seventeen{
+    transform:rotate(28.5deg);
+}
+#letter-eighteen{
+    transform:rotate(31.58deg);
+}
+#letter-nineteen{
+    transform:rotate(35deg);
+} 

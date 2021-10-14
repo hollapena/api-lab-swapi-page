@@ -12,7 +12,7 @@ function buttonClicked(evt) {
             let newElement=document.createElement('h2')
             let newText=document.createTextNode(res.data.name)
             newElement.appendChild(newText)
-            document.querySelector('body').appendChild(newElement)
+            document.querySelector('section').appendChild(newElement)
         })}
         // console.log(res.data.results[0].residents)
     })
